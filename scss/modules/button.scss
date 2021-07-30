@@ -1,0 +1,15 @@
+.fl-builder-content {
+
+    a.fl-button, a.fl-button:visited {
+        background: $primary-color;
+        color: #fff;
+        @include darker_border( $primary-color);
+        padding: $bo-padding-top $bo-padding-right $bo-padding-bottom $bo-padding-left;
+    }
+    
+    a.fl-button:hover, .fl-builder-content a.fl-button:hover {
+        color: #fff;
+        @include darker_background( $primary-color , 20%);
+    }
+
+}

@@ -1,0 +1,8 @@
+$global-color: $bo-global-color !default;
+$primary-color: $bo-primary-color !default;
+$secondary-color: $bo-secondary-color !default;
+$muted-color: $bo-muted-color !default;
+
+@import 'mixins.scss';
+@import 'modules/button.scss';
+@import 'modules/accordion.scss';

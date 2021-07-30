@@ -1,0 +1,18 @@
+@if ( $primary-color ) {
+    
+    .fl-builder-content {
+
+        .fl-accordion-button {
+            background-color: $primary-color;
+            & a {
+                color: white;
+            }
+        }
+
+        .fl-accordion-item {
+            @include darker_border( $primary-color , 30% );
+        }
+    }
+
+
+}

@@ -1,0 +1,11 @@
+@mixin darker_border( $color , $percentage : 30% ) {
+    @if ($color) {
+        border: 1px solid darken($color, $percentage);
+    }
+}
+
+@mixin darker_background( $color , $percentage : 30% ) {
+    @if ($color) {
+        background: darken($color, $percentage );
+    }
+}
